@@ -1,0 +1,176 @@
+/* กำหนดสไตล์พื้นฐานสำหรับ body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF5EE;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* สไตล์สำหรับคอนเทนเนอร์ของหน้าล็อกอิน */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* สไตล์สำหรับกล่องล็อกอิน */
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* สไตล์หัวข้อ */
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/*เปลี่ยนสีและมีเส้นใต้เมื่อเม้าส์เลื่อนผ่าน*/
+.login-box p :hover {
+    color:#0056b3;
+    text-decoration: underline;
+}
+
+/* สไตล์สำหรับกล่องregister */
+.register-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/*เปลี่ยนสีและมีเส้นใต้เมื่อเม้าส์เลื่อนผ่าน*/
+.register-box p :hover {
+    color:#0056b3;
+    text-decoration: underline;
+}
+
+/* สไตล์กลุ่ม input */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* สไตล์สำหรับ label */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* สไตล์สำหรับ input */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* เปลี่ยนสีเมื่อ input ได้รับโฟกัส */
+.input-group input:focus {
+    border-color: #007BFF;
+}
+
+/* สไตล์ปุ่ม */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* เปลี่ยนสีปุ่มเมื่อเมาส์เลื่อนผ่าน */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ลิงก์ลงทะเบียน */
+p {
+    margin-top: 15px;
+}
+
+p a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* สไตล์สำหรับฟอร์มแสดงความคิดเห็น */
+.comment-form {
+    margin-top: 15px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 14px;
+}
+
+.comment-form button {
+    margin-top: 5px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #0056b3;
+}
+
+/* สไตล์สำหรับความคิดเห็น */
+.comment-list {
+    margin-top: 15px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment small {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+}
+
+.header {
+    padding: 40px;
+}
+
+.header h1 {
+    text-align: center;
+}
